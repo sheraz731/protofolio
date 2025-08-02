@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>Document</title>
+</head>
+<style>
+    .main{
+        width: 100%;
+        height: 4000px;
+        background:linear-gradient(to right, rgb(19, 1, 16)0%,#230930 50%, #3f0731 100%);
+    }
+    .header{
+        height: 70px ;
+      background-color: rgb(27, 13, 88);
+       
+        }
+        .box{
+            height: 70px;
+            width: 500px;
+            color: aliceblue;
+            margin-left: 10px;
+            padding-left: 100px;
+        }
+         .icon{
+        margin-top: 20px;
+        color: #eb18b6;
+       }
+           .box2 {
+            height: 70px;
+            width: 500px;
+            color: rgb(245, 247, 248);
+            margin-left: 10px;
+            
+           
+        }
+        .box2 li{
+             display:inline-block;
+             margin: 20px;
+             margin-top: 30px;
+        }
+        .li:hover{
+            color: #741733;
+          
+            font-size: 20px;
+        }
+           .box3{
+            height: 70px;
+            width: 500px;
+            color: aliceblue;
+            margin-left: 10px;
+            
+        }
+        .button{
+            padding: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-color: rgb(147, 19, 233);
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius:30px ;
+            border: none;
+            color: aliceblue;
+            margin-left: 70px;
+            margin-top: 10px;
+        }
+      
+      .button:hover{
+        background-color: slateblue;
+        color: aliceblue;
+        border: 2px solid gray;
+      }
+      .main1{
+        height: 700px;
+        display: flex;
+
+      }
+      .boxh{
+        width: 50%;
+        height: 500px;
+        color: aliceblue;
+        align-items: end;
+        margin-top: 140px;
+
+      }
+      .bold{
+        font-size: 60px;
+      }
+      .p{
+       
+      }
+      .boxim{
+        width: 50%;
+        height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+ margin-top: 170px;
+
+      }
+      .img{
+        border-radius: 20px;
+        
+      }
+     .img:hover{
+  transform: translateY(10px);
+            transition: 6s;
+
+     }
+     .con{
+     background-color: #3f0731;
+     color:white;
+     padding: 10px;
+     font-size: 20px;
+     border: none;
+     border-radius: 10px;
+     margin-left:100px ;
+     margin-top: 10px;
+     }
+     .con:hover{
+       background-color: #7e1062;
+       transform: translateY(10px);
+         border: 1px solid white;
+     }
+     .skill{
+ background-color: #3f0731;
+     color:white;
+     padding: 10px;
+     font-size: 20px;
+     border: none;
+     border-radius: 10px;
+     margin-left: 100px;
+  
+     
+     }
+     .skill:hover{
+        margin: none;
+        background-color: #eb18b6;
+   transform: translate(10px);
+   border: 1px solid white;
+     }
+    .main2{
+        height: 700px;
+         
+    }
+    .subimg{
+        height: 500px;
+        
+        margin-top: 150px;
+    }
+    .subheadi{
+        height: 500px;
+        border:2px solid red ;
+        color: aliceblue;
+         margin-top: 150px;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .para{
+        color: slategrey;
+    }
+    .sub1{
+         border:2px solid red ;
+    }
+    .boxi{
+        color: #b6519d;
+        font-size: 20px;
+    }
+    .boxi:hover{
+       color: #fd1837;
+       transform: scale(1.2);
+    }
+    .butto{
+        padding: 10px;
+        background-color: #3f0731;
+        border: none;
+        border-radius: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: aliceblue;
+    }
+    .butto:hover{
+        background-color: #61084b;
+        transform: translateY(5px);
+    }
+    .main3{
+        height: 500px;
+        border: 2px solid red;
+       
+        color: aliceblue;
+     
+    }
+    .font{
+        margin-top: 100px;
+        font-size: 60px;
+         text-align: center;
+    }
+    .box5{
+        margin-top: 20px;
+        width: 410px;
+        height: 250px;
+    margin-left:20px ;
+        border: 1px solid rgb(0, 81, 255);
+        border-radius: 10px;
+        background-color: #230930;
+        color: aliceblue;
+        text-align: center;
+    }
+    .ico{
+        font-size: 40px;
+     
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: #851a6a;
+    }
+    .main4{
+        border: 2px solid red;
+        height: 500px;
+    }
+    .box6{
+        height: 120px;
+        border: 2px solid rgb(7, 9, 99);
+    }
+    .boxskil{
+        height: 100px;
+         border: 2px solid rgb(0, 255, 85);
+         width: 200px;
+         margin-left: 15px;
+         text-align: center;
+         color: whitesmoke;
+         background-color: rgb(19, 1, 16);
+    }
+.boxskil1{
+     height: 100px;
+         width: 200px;
+         margin-left: 15px;
+         text-align: center;
+         color: aliceblue;
+}
+.tech{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.is{
+    font-size: 40px;
+    margin-left:0px;
+    margin-top: 20px;
+    color: rgb(212, 83, 31);
+}
+.main5{
+    height: 500px;
+    border: 2px solid red;
+}
+.col-6{
+    height: 450px;
+    border: 2px solid red;
+    color: aliceblue;
+}
+
+.imbox:hover{
+img{
+    transform: scale(1.05);
+    transition: 1s;
+}
+}
+.tal{
+    width: 300px;
+    height: 100px;
+}
+.talk{
+    padding: 10px;
+    background-color: #61084b;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.man{
+    height: 40px ;
+       
+}
+.par{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.per{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.click{
+    color: #b6519d;
+
+}
+.click:hover{
+    color: #b66e51;
+    transform: scale(1.5);
+    transform: translate(2px);
+}
+.man1:hover{
+    transform: translate(2px);
+    .click{
+        color: #b66e51;
+    }
+}
+.main6{
+    height: 600px;
+    border: 2px solid red;
+
+    
+}
+.input0{
+    width: 900px;
+    height: 600px;
+    border: 2px solid rgb(17, 0, 255);
+margin-left: 200px;
+color: rgb(104, 110, 116);
+text-align: center;
+}
+.input1{
+background-color: #61084b;
+border: none;
+border-radius: 10px;
+height: 60px;
+width: 400px;
+}
+.input2{
+background-color: #61084b;
+border: none;
+border-radius: 10px;
+height: 60px;
+width: 400px;
+margin-left: 30px;
+}
+.input3{
+background-color: #61084b;
+border: none;
+border-radius: 10px;
+height: 60px;
+width: 100%;
+margin-top: 20px;
+}
+.input4{
+background-color: #61084b;
+border: none;
+border-radius: 10px;
+height: 200px;
+width: 100%;
+margin-top: 20px;
+
+}
+.contacttext{
+    height: 200px;
+    display: inline-block;
+    border: 2px solid red;
+}
+.sendmassege{
+    background-color: #7e1062;
+    
+    color: white;
+     border: none;
+     border-radius: 30px;
+     padding: 10px;
+     padding-left: 40px;
+     padding-right: 40px;
+     margin-top:20px ;
+   
+}
+.sendmassege:hover{
+    background:linear-gradient(to right,rgb(116, 5, 82)50%,rgb(209, 200, 200)200%);
+    transform: scale(1.1);
+    
+}
+.me{
+ text-decoration: none;
+ color: #686a6b;
+}
+.me:hover{
+    color: whitesmoke;
+    margin-left: 8px;
+    transition: 1s;
+}
+
+.btn:hover{
+    background-color: rgb(8, 73, 64);
+    transform: scale(1.1);
+transition: 1s;
+}
+.btn1{
+color: rgb(237, 245, 241);
+background-color: springgreen;
+border-radius: 55%;
+padding: 8px;
+font-size: 15px;
+}
+.btn1:hover{
+background-color: rgb(8, 73, 64);
+color: whitesmoke;
+transform: scale(1.1);
+transition: 1s;
+}
+.btn2{
+    color: whitesmoke;
+    border: 1px solid grey;
+    background:  rgba(255, 255, 255, 0.1);
+    border-radius: 55%;
+padding: 8px;
+font-size: 15px;
+}
+.btn2:hover{
+    background-color: #851a6a;
+    color: whitesmoke;
+    
+    margin-bottom: 10px;
+transform: scale(1.1);
+transition: 1s;
+border: none;
+}
+</style>
+<body>
+    <section>
+    <div class="main">
+<div class="container-fluid header">
+<div class="row">
+    <div class="box">
+<h3 class="icon"><i class="fa-solid fa-barcode"></i>Sheraz Ali Web Developer</h3>
+    </div>
+     <div class="box2">
+<ul>
+    <li class="li"><a href="http://"></a>Home</li>
+     <li class="li"><a href="http://"></a>My Courses</li>
+      <li class="li"><a href="http://"></a>Contact Now</li>
+</ul>
+     </div>
+      <div class="box3">
+        <button class="button">More Information</button>
+        </div>
+</div>
+</div>
+<section>
+<div class="main1 container">
+    <div class="boxh">
+<p class="p"> <h1 class="bold">Hi, I'm Sheraz Ali <br>
+A Creative <br> Web Developer</h1>
+<h4>I design and build responsive, user-friendly websites and web applications
+     <br> that drive results and delight users. Let's bring your digital vision to life!</h4></p>
+     <button class="con"> Let's Contect  <i class="fa-solid fa-phone"></i></button>
+    <button class="skill">My Skills <i class="fa-solid fa-shield-halved"></i></button>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="sub col-3 mt-5"><h1>5+</h1>
+Years Experience</div>
+<div class="col-1"></div>
+        <div class="sub col-3 mt-5"><h1>100+</h1>
+      
+Projects Done</div>
+<div class="col-1"></div>
+        <div class="sub col-3 mt-5"><h1>99%</h1>
+Client Satisfaction</div>
+    </div>
+    </div>
+    <div class="boxim">
+        <img class="img" src="WhatsApp Image 2025-07-27 at 07.42.13_07e2f3a0.jpg" alt="" width="500px" height="550px">
+    </div>
+</div>
+</section>
+<section>
+<div class="container main2">
+    <div class="row">
+    <div class="subimg col-6">
+
+    </div>
+    <div class="subheadi col-6">
+        <h1 class="about"><strong>About Me</strong></h1>
+        <br>
+     <strong>  <p class="para">Hello! I'm Ehtisham Sarwar, a passionate and results-oriented Web Developer with a knack for creating dynamic and intuitive digital experiences. With a strong foundation in modern web technologies, I thrive on transforming complex problems into elegant, efficient solutions. My experience spans various domains, including developing solutions for fitness management, educational and travel platforms, and emerging blockchain technologies.
+<br>
+<br>
+My journey in web development started with a fascination for how websites work, and it has grown into a full-fledged passion for building tools that help people and businesses achieve their goals. I'm a lifelong learner, always eager to explore new technologies and methodologies.</p>
+  </strong> 
+ 
+    <div class="click"><div class="row"> <div class="col-1 sub1"><i class="fa-solid boxi fa-circle-check"></i></div> 
+<div class="col-11 sub1">Versatile Across Diverse Project Domains</div></div></div>
+   
+   <div class="click"><div class="row"> <div class="col-1 sub1"><i class="fa-solid boxi fa-circle-check"></i></div> 
+<div class="col-11 sub1">Committed to Clean & Efficient Code</div></div> </div>
+    <div class="click"><div class="row"> <div class="col-1 sub1"><i class="fa-solid boxi fa-circle-check"></i></div> 
+<div class="col-11 sub1">Focus on User Experience & Accessibility</div></div> </div> 
+<button class="butto">Download CV <i class="fa-solid fa-download"></i></button>
+</div>
+
+</div>
+</div>
+</section>
+<section>
+<div class="container main3">
+   <h1 class="font">My Services</h1>
+    <div class="row">
+        <div class="col-4 box5"><i class="fa-solid ico fa-code"></i><h3>Frontend Development</h3>
+<strong>Crafting responsive and engaging user interfaces with modern technologies.</strong></div>
+      
+        <div class="col-4 box5"><i class="fa-solid ico fa-database"></i></i><h3>Backend Development</h3>
+<strong>Building robust and scalable server-side logic and APIs.</strong></div>
+          
+          <div class="col-3 box5"><i class="fa-solid ico fa-layer-group"></i><h3>Full-Stack Solutions</h3>
+<strong>End-to-end web application development, from concept to deployment.</strong></div>
+    </div>
+</div>
+</section>
+<section>
+<div class="container main4">
+    <h1 class="tech">Technical Skills</h1>
+    <div class="box6">
+<div class="row">
+    <div class="col-2 boxskil"><i class="fa-brands is fa-html5"></i><br>
+        HTML5</div>
+      <div class="col-2 boxskil"><i class="fa-brands is fa-css3-alt"></i><br>
+        CSS3</div>
+        <div class="col-2 boxskil"><i class="fa-brands is fa-js"></i><br>
+            JavaScript</div>
+          <div class="col-2 boxskil"><i class="fa-brands is fa-react"></i><br>
+            React</div>
+            <div class="col-2 boxskil"><i class="fa-brands is fa-node-js"></i><br>
+                Node.js</div>
+              <div class="col-2 boxskil"><i class="fa-brands is fa-python"></i><br>
+                Python</div>
+</div>
+    </div>
+    <div class="box7">
+    <div class="row">
+    <div class="col2 boxskil1"></div>
+      <div class="col-2 boxskil"><i class="fa-solid is fa-database"></i><br>
+        SQL/NoSQL</div>
+        <div class="col-2 boxskil"><i class="fa-brands is fa-git-alt"></i><br>
+            Git & GitHub</div>
+          <div class="col-2 boxskil"><i class="fa-brands is fa-bootstrap"></i><br>
+            Bootstrap</div>
+            <div class="col-2 boxskil"><i class="fa-brands is fa-ethereum"></i><br>
+                Solidity</div>
+              <div class="col-2 boxskil1"></div>
+</div>    
+    </div>
+</div>
+</section>
+<section>
+<div class="main5 container">
+    <div class="row">
+        <div class="col-6 imbox">
+            <img src="work (1).avif" alt="" style="width:500px; height:300px; border-radius: 20px; margin-top: 20px; margin-left: 20px;">
+         <div class="tal">   <button class="talk">Let's Talk <i class="fa-solid fa-comments"></i></button></div>
+           
+        </div>
+         <div class="col-6">
+<h1 class="par">Partnering for Your <br> Success</h1>
+<p class="per">Choosing the right developer is crucial. I'm dedicated to understanding <br> your unique needs and delivering solutions that not only meet but exceed <br>
+ your expectations. My focus is on creating value through quality,<br> innovation, and collaboration.</p>
+<div class=" man1"><div class="row">
+    <div class="col-1 man"><i class="fa-solid click fa-check"></i></div><div class="col-11 man">Transparent Communication</div>
+</div></div>
+<div class=" man1"><div class="row">
+    <div class="col-1 man"><i class="fa-solid click fa-check"></i></div><div class="col-11 man">Quality-Driven Development</div>
+</div></div>
+<div class="man1"><div class="row">
+    <div class="col-1 man"><i class="fa-solid click fa-check"></i></div><div class="col-11 man">Timely Delivery & Support</div>
+</div></div>
+<div class=" man1"><div class="row">
+    <div class="col-1 man"><i class="fa-solid click fa-check"></i></div><div class="col-11 man">Scalable & Future-Proof Solutions</div>
+</div></div>
+         </div>
+    </div>
+</div>
+</section>
+<section>
+<div class="main6 container">
+    <div class="input0">
+      <textarea class="input1" placeholder="Your Name" required></textarea>
+        <textarea class="input2" placeholder="Your Email" required></textarea>
+          <textarea class="input3" placeholder=" Subject" required></textarea>
+   <textarea class="input4" placeholder="Your Massage" required></textarea>
+   <button class="sendmassege"> Send Massege</button><br>
+   <br>
+   <br>
+   <div class="contacttext container">
+  <h5> or contact with me on:</h5><br>
+  <h4><a href="mailto:raisheraz7181@gmail.com "><i class="fa-solid fa-envelope"></i>raisheraz7181@gmail.com  </a>
+      <a href="https://www.faceboook.com/share/1LEm5MZRTt/" style="margin-left: 10px;"> <i class="fa-brands fa-facebook"></i>FaceBook </a>  
+   <a href="#" style="margin-left: 10px;"> <i class="fa-brands fa-linkedin"></i> LinkIn </h4></a>
+</ul>
+</div>
+</div>
+</div>
+</section>
+ <footer class=" text-white pt-5 pb-3" style="background-color: none;">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- Left Column -->
+      <div class="col-md-4">
+        <h4 class="fw-bold">Sheraz Ali Web Developer</h4>
+        <p class="mb-1 fw-semibold">Crafting Digital Experiences with <span class="text-info">Code & Creativity</span></p>
+        <p style="font-size: 0.9rem;">Passionate about building innovative and user-friendly web solutions, from fitness apps to blockchain platforms. Let's collaborate to bring your ideas to life.</p>
+
+        <p class="fw-semibold mb-1">Connect with me:</p>
+        <div class="d-flex gap-3 align-items-center">
+          <a href="https://github.com/raisheraz7181-corder" class="btn2"><i class="fab fa-github"></i></a>
+          <a href="#" class="btn2"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="btn2"><i class="fab fa-twitter"></i></a>
+          <a href="https://wa.me/923131006067" class="btn1 "><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://wa.me/923131006067" class="btn btn-success btn-sm px-3 py-2 fw-semibold rounded-pill">
+            <i class="fab fa-whatsapp me-1"></i> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h6 class="fw-bold">Quick Links</h6>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class=" me"><i class="fas  fa-angle-right me-2" style="color: rgb(97, 7, 199);"></i>Home</a></li>
+          <li><a href="#" class="me"><i class="fas fa-angle-right me-2" style="color: rgb(97, 7, 199);"></i>About Me</a></li>
+          <li><a href="#" class="me"><i class="fas fa-angle-right me-2" style="color:  rgb(97, 7, 199);"></i>Services</a></li>
+          <li><a href="#" class="me"><i class="fas fa-angle-right me-2" style="color: rgb(97, 7, 199);"></i>Projects</a></li>
+          <li><a href="#" class="me"><i class="fas fa-angle-right me-2" style="color:  rgb(97, 7, 199);"></i>Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4">
+        <h6 class="fw-bold">Get In Touch</h6>
+        <ul class="list-unstyled mt-3">
+          <li><i class="fas fa-map-marker-alt me-2 " style="color: rgb(97, 7, 199);"> </i>  Planet Earth (Remote Ready) </li>
+          <li><i class="fas fa-envelope me-2 " style="color:  rgb(97, 7, 199);"></i> raisheraz7181@gmail.com</li>
+          <li><i class="fab fa-whatsapp me-2 " style="color:  rgb(97, 7, 199);"></i> +92 313 1006067</li>
+        </ul>
+        <div class="mt-2">
+          <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+          <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" style="border-color: #333;" />
+
+    <p class="text-center text-muted mb-0" style="font-size: 0.85rem;">
+      Copyright © 2025 <strong>Sheraz ALi</strong>. All Rights Reserved
+    </p>
+  </div>
+</footer>
+    </div>
+   
+    </section>
+</body>
+</html>
